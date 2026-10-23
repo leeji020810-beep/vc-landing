@@ -418,14 +418,3 @@ container-type:inline-size;position:relative;overflow-x:clip;font-family:var(--k
 
 /* 접수 연동 확인 전: 폼 대신 기존 상담 페이지 연결 버튼만 표시 */
 .lf .form-links{gap:34px}
-
-/* Eye patient cases: original photos, no elapsed-day labels. */
-.lf .eye-cases .r-label{color:var(--sd,#BFAE9B)}
-.lf .eye-cases .r-h2{color:var(--cr)}
-.lf .eye-case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:48px;align-items:start}
-.lf .eye-case{margin:0;min-width:0;border-top:1px solid #897666;padding-top:18px}
-.lf .eye-case figcaption{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px;font-size:14px;line-height:1.6;color:var(--cr)}
-.lf .eye-case img{display:block;width:100%;height:auto}
-.lf .eye-case-pair{display:grid;gap:0}
-.lf .eye-cases-note{margin:32px 0 0;font-size:14px;line-height:1.8;color:var(--cr);word-break:keep-all;overflow-wrap:break-word}
-@media(max-width:767px){.lf .eye-case-grid{grid-template-columns:1fr;gap:28px;margin-top:28px}.lf .eye-case figcaption{font-size:12px}.lf .eye-cases-note{font-size:13px;margin-top:28px}}
